@@ -1,0 +1,27 @@
+body{
+    background-color: forestgreen;
+   
+}
+h1{
+    text-align: center;
+}
+
+img.card-img-top{
+    object-fit: cover;
+    cursor: pointer;
+    margin-top: 100px;;
+    max-height:  150px !important;
+    max-width: 150px !important;
+}
+
+img.card-img-top-girar{
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
